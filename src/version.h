@@ -14,10 +14,10 @@
 // These need to be macro's, as version.cpp's voodoo requires it
 
 // Pulse version - intended for display purpose only
-#define PEERUNITY_VERSION_MAJOR       0
-#define PEERUNITY_VERSION_MINOR       1
-#define PEERUNITY_VERSION_REVISION    2
-#define PEERUNITY_VERSION_BUILD       3
+#define PEERUNITY_VERSION_MAJOR       1
+#define PEERUNITY_VERSION_MINOR       0
+#define PEERUNITY_VERSION_REVISION    0
+#define PEERUNITY_VERSION_BUILD       0
 
 static const int PEERUNITY_VERSION =
                            1000000 * PEERUNITY_VERSION_MAJOR
@@ -26,10 +26,10 @@ static const int PEERUNITY_VERSION =
                          +       1 * PEERUNITY_VERSION_BUILD;
 
 // Pulse version - reference for code tracking
-#define PPCOIN_VERSION_MAJOR       0
-#define PPCOIN_VERSION_MINOR       4
-#define PPCOIN_VERSION_REVISION    2
-#define PPCOIN_VERSION_BUILD       2
+#define PPCOIN_VERSION_MAJOR       1
+#define PPCOIN_VERSION_MINOR       0
+#define PPCOIN_VERSION_REVISION    0
+#define PPCOIN_VERSION_BUILD       0
 
 static const int PPCOIN_VERSION =
                            1000000 * PPCOIN_VERSION_MAJOR
@@ -38,9 +38,9 @@ static const int PPCOIN_VERSION =
                          +       1 * PPCOIN_VERSION_BUILD;
 
 // bitcoin version - reference for code tracking
-#define BITCOIN_VERSION_MAJOR       0
-#define BITCOIN_VERSION_MINOR       6
-#define BITCOIN_VERSION_REVISION    3
+#define BITCOIN_VERSION_MAJOR       1
+#define BITCOIN_VERSION_MINOR       0
+#define BITCOIN_VERSION_REVISION    0
 #define BITCOIN_VERSION_BUILD       0
 
 static const int BITCOIN_VERSION =
@@ -60,7 +60,7 @@ extern const std::string CLIENT_DATE;
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 60004;
+static const int PROTOCOL_VERSION = 60005;
 
 // earlier versions not supported as of Feb 2012, and are disconnected
 // NOTE: as of bitcoin v0.6 message serialization (vSend, vRecv) still
@@ -69,7 +69,7 @@ static const int MIN_PROTO_VERSION = 209;
 
 // nTime field added to CAddress, starting with this version;
 // if possible, avoid requesting addresses nodes older than this
-static const int CADDR_TIME_VERSION = 31402;
+static const int CADDR_TIME_VERSION = 32000;
 
 // only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 32000;
