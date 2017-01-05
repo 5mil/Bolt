@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Pulse</source>
-        <translation>О Pulse</translation>
+        <source>About Bolt</source>
+        <translation>О Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Pulse Developers</source>
-        <translation>Право собственности © 2014 Pulse Developers</translation>
+        <source>Copyright © 2014 Bolt Developers</source>
+        <translation>Право собственности © 2014 Bolt Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 Pulse Developers</source>
-        <translation>Право собственности © 2011-2014 Pulse Developers</translation>
+        <source>Copyright © 2011-2014 Bolt Developers</source>
+        <translation>Право собственности © 2011-2014 Bolt Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Pulse addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Это адреса Pulse для получения платежей. Вы можете дать другой адрес для каждого отправителя, чтобы иметь возможность отслеживать, кто платит вам. </translation>
+        <source>These are your Bolt addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Это адреса Bolt для получения платежей. Вы можете дать другой адрес для каждого отправителя, чтобы иметь возможность отслеживать, кто платит вам. </translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -266,8 +266,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Pulse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Pulses from being stolen by malware infecting your computer.</source>
-        <translation>Pulse сейчас закроется для завершения процесса шифрования. Помните, что шифрование не может полностью защитить ваш кошелек от кражи Pulse, так как ваш компьютер может быть заражен вредоносными программами.  </translation>
+        <source>Bolt will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Bolts from being stolen by malware infecting your computer.</source>
+        <translation>Bolt сейчас закроется для завершения процесса шифрования. Помните, что шифрование не может полностью защитить ваш кошелек от кражи Bolt, так как ваш компьютер может быть заражен вредоносными программами.  </translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Pulse</source>
-        <translation>Показать информацию о Pulse</translation>
+        <source>Show information about Bolt</source>
+        <translation>Показать информацию о Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,39 +497,39 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Pulse Wallet</source>
-        <translation>Кошелек Pulse </translation>
+        <source>Bolt Wallet</source>
+        <translation>Кошелек Bolt </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Pulse address</source>
-        <translation>Отправить монеты на адрес Pulse </translation>
+        <source>Send coins to a Bolt address</source>
+        <translation>Отправить монеты на адрес Bolt </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Pulse</source>
-        <translation>О Pulse </translation>
+        <source>&amp;About Bolt</source>
+        <translation>О Bolt </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Pulse</source>
-        <translation>Изменить параметры конфигурации Pulse </translation>
+        <source>Modify configuration options for Bolt</source>
+        <translation>Изменить параметры конфигурации Bolt </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Pulse</source>
-        <translation>Скрыть/Показать Pulse</translation>
+        <source>Show/Hide &amp;Bolt</source>
+        <translation>Скрыть/Показать Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Pulse window</source>
-        <translation>Скрыть или показать окно программы Pulse
+        <source>Show or hide the Bolt window</source>
+        <translation>Скрыть или показать окно программы Bolt
 </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Pulse client</source>
-        <translation>Клиент Pulse </translation>
+        <source>Bolt client</source>
+        <translation>Клиент Bolt </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -538,7 +538,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Pulse network</source>
+        <source>%n active connection(s) to Bolt network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -685,8 +685,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Pulse can no longer continue safely and will quit.</source>
-        <translation>Произошла фатальная ошибка. Pulse не может продолжать работать нормально и закрывается. </translation>
+        <source>A fatal error occured. Bolt can no longer continue safely and will quit.</source>
+        <translation>Произошла фатальная ошибка. Bolt не может продолжать работать нормально и закрывается. </translation>
     </message>
 </context>
 <context>
@@ -984,8 +984,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Pulse addresses in the transaction list</source>
-        <translation>Отображать адреса Pulse в списке транзакций</translation>
+        <source>Whether to show Bolt addresses in the transaction list</source>
+        <translation>Отображать адреса Bolt в списке транзакций</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1052,8 +1052,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pulse address.</source>
-        <translation>Введенный адрес &quot;%1&quot; не является допустимым адресом для Pulse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bolt address.</source>
+        <translation>Введенный адрес &quot;%1&quot; не является допустимым адресом для Bolt.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1095,8 +1095,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Pulse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открывать порт клиента Pulse на роутере. Это будет работать, только если роутер поддерживает UPnP и он включен.</translation>
+        <source>Automatically open the Bolt client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открывать порт клиента Bolt на роутере. Это будет работать, только если роутер поддерживает UPnP и он включен.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1106,7 +1106,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Подключаться к сети Pulse через SOCKS4 прокси (например, при использовании Tor)</translation>
+        <translation>Подключаться к сети Bolt через SOCKS4 прокси (например, при использовании Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1130,8 +1130,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PULSE fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation>Обязательные операционные платы за каждый килобайт перечислены. Большинство операций имеют меньше 1 килобайта и оплачиваются в размере 0.01 PULSE. Замечание: размер перевода может увеличиваться в зависимости от количества входных операций, добавляемых вместе, чтобы финансировать оплату. </translation>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 Bolt fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <translation>Обязательные операционные платы за каждый килобайт перечислены. Большинство операций имеют меньше 1 килобайта и оплачиваются в размере 0.01 Bolt. Замечание: размер перевода может увеличиваться в зависимости от количества входных операций, добавляемых вместе, чтобы финансировать оплату. </translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
@@ -1150,13 +1150,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Pulse on window system startup</source>
-        <translation>Запускать Pulse при запуске компьютера</translation>
+        <source>&amp;Start Bolt on window system startup</source>
+        <translation>Запускать Bolt при запуске компьютера</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Pulse after the computer is turned on</source>
-        <translation>Автоматически запускать Pulse после включения компьютера</translation>
+        <source>Automatically start Bolt after the computer is turned on</source>
+        <translation>Автоматически запускать Bolt после включения компьютера</translation>
     </message>
 </context>
 <context>
@@ -1440,8 +1440,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>PULSE</source>
-        <translation>PULSE</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1483,8 +1483,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Pulse (Pulse) debug window</source>
-        <translation>Окно отладки Pulse (Pulse)</translation>
+        <source>Bolt (Bolt) debug window</source>
+        <translation>Окно отладки Bolt (Bolt)</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1575,8 +1575,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Pulse RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Добро пожаловать в консоль Pulse RPC. &lt;br&gt;Используйте стрелки вверх и вниз, для перемещения по истории, и &lt;b&gt;Ctrl-L&lt;/b&gt; чтобы очистить экран.&lt;br&gt;Введите &lt;b&gt;help&lt;/b&gt; для обзора доступных команд.</translation>
+        <source>Welcome to the Bolt RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Добро пожаловать в консоль Bolt RPC. &lt;br&gt;Используйте стрелки вверх и вниз, для перемещения по истории, и &lt;b&gt;Ctrl-L&lt;/b&gt; чтобы очистить экран.&lt;br&gt;Введите &lt;b&gt;help&lt;/b&gt; для обзора доступных команд.</translation>
     </message>
 </context>
 <context>
@@ -1809,8 +1809,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Pulse address</source>
-        <translation>Введите адрес Pulse </translation>
+        <source>Enter a Bolt address</source>
+        <translation>Введите адрес Bolt </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1898,8 +1898,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Pulse address</source>
-        <translation>Введите адрес Pulse </translation>
+        <source>Enter a Bolt address</source>
+        <translation>Введите адрес Bolt </translation>
     </message>
 </context>
 <context>
@@ -1963,8 +1963,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Pulse address</source>
-        <translation>Подписать сообщение, чтобы доказать, что вы владелец этого Pulse адреса </translation>
+        <source>Sign the message to prove you own this Bolt address</source>
+        <translation>Подписать сообщение, чтобы доказать, что вы владелец этого Bolt адреса </translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1999,8 +1999,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Pulse address</source>
-        <translation>Проверьте сообщение, чтобы гарантировать, что его пописали заданным Pulse адресом</translation>
+        <source>Verify the message to ensure it was signed with the specified Bolt address</source>
+        <translation>Проверьте сообщение, чтобы гарантировать, что его пописали заданным Bolt адресом</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2025,8 +2025,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Pulse address</source>
-        <translation>Введите адрес Pulse </translation>
+        <source>Enter a Bolt address</source>
+        <translation>Введите адрес Bolt </translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2587,18 +2587,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Pulse is probably already running.</source>
-        <translation>Невозможно связаться с портом %d на компьютере. Pulse, вероятно, уже запущена. </translation>
+        <source>Unable to bind to port %d on this computer.  Bolt is probably already running.</source>
+        <translation>Невозможно связаться с портом %d на компьютере. Bolt, вероятно, уже запущена. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Pulse version</source>
-        <translation>Версия Pulse</translation>
+        <source>Bolt version</source>
+        <translation>Версия Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or Pulsed</source>
-        <translation>Отправить команду на -server или Pulsed</translation>
+        <source>Send command to -server or Boltd</source>
+        <translation>Отправить команду на -server или Boltd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2618,13 +2618,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: Pulse.conf)</source>
-        <translation>Указать файл конфигурации системы (default: Pulse.conf)</translation>
+        <source>Specify configuration file (default: Bolt.conf)</source>
+        <translation>Указать файл конфигурации системы (default: Bolt.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: Pulsed.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: Pulse.pid)</translation>
+        <source>Specify pid file (default: Boltd.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: Bolt.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2879,23 +2879,23 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Pulse is probably already running.</source>
-        <translation>Невозможно получить блокировку на каталог данных %s. Pulse вероятно уже запущена. </translation>
+        <source>Cannot obtain a lock on data directory %s.  Bolt is probably already running.</source>
+        <translation>Невозможно получить блокировку на каталог данных %s. Bolt вероятно уже запущена. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Pulse</source>
-        <translation>Pulse</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pulse</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новую версию Pulse. </translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bolt</source>
+        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новую версию Bolt. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Pulse to complete</source>
-        <translation>Кошелек должен быть переписан: перезапустите Pulse, чтобы завершить процесс</translation>
+        <source>Wallet needed to be rewritten: restart Bolt to complete</source>
+        <translation>Кошелек должен быть переписан: перезапустите Bolt, чтобы завершить процесс</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2911,8 +2911,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Pulse will not work properly.</source>
-        <translation>Предупреждение: Пожалуйста, проверяйте правильно ли выставлено время и дата на компьютере. Если часы будут идти неправильно, Pulse не будет работать должным образом. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bolt will not work properly.</source>
+        <translation>Предупреждение: Пожалуйста, проверяйте правильно ли выставлено время и дата на компьютере. Если часы будут идти неправильно, Bolt не будет работать должным образом. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

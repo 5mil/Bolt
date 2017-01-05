@@ -1,9 +1,9 @@
 /*
- * Qt4 Pulse GUI.
+ * Qt4 Bolt GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The Pulse Developers 2011-2013
+ * The Bolt Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -74,9 +74,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("Pulse Wallet"));
+    setWindowTitle(tr("Bolt Wallet"));
 #ifndef Q_WS_MAC
-    setWindowIcon(QIcon(":icons/Pulse_icon"));
+    setWindowIcon(QIcon(":icons/Bolt_icon"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -222,7 +222,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Pulse address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a Bolt address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -258,17 +258,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/Pulse_tooltip"), tr("&About Pulse"), this);
-    aboutAction->setToolTip(tr("Show information about Pulse"));
+    aboutAction = new QAction(QIcon(":/icons/Bolt_tooltip"), tr("&About Bolt"), this);
+    aboutAction->setToolTip(tr("Show information about Bolt"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Pulse"));
+    optionsAction->setToolTip(tr("Modify configuration options for Bolt"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/Pulse_tooltip"), tr("Show/Hide &Pulse"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the Pulse window"));
+    toggleHideAction = new QAction(QIcon(":/icons/Bolt_tooltip"), tr("Show/Hide &Bolt"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the Bolt window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet"), this);
@@ -359,14 +359,14 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_WS_MAC
-            setWindowIcon(QIcon(":icons/Pulse_icon"));
+            setWindowIcon(QIcon(":icons/Bolt_icon"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/Pulse_icon"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/Bolt_icon"));
 #endif
             if(trayIcon)
             {
                 trayIcon->setToolTip(title_testnet);
-                trayIcon->setIcon(QIcon(":/icons/Pulse_tooltip"));
+                trayIcon->setIcon(QIcon(":/icons/Bolt_tooltip"));
             }
         }
 
@@ -422,8 +422,8 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Pulse client"));
-    trayIcon->setIcon(QIcon(":/icons/Pulse_tooltip"));
+    trayIcon->setToolTip(tr("Bolt client"));
+    trayIcon->setIcon(QIcon(":/icons/Bolt_tooltip"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
     trayIcon->show();
@@ -515,7 +515,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Pulse network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Bolt network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

@@ -1,6 +1,6 @@
 /*
  * W.J. van der Laan 2011-2012
- * The Pulse Developers 2013
+ * The Bolt Developers 2013
  */
 #include "bitcoingui.h"
 #include "clientmodel.h"
@@ -125,7 +125,7 @@ std::string _(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occured. Pulse can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occured. Bolt can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -141,7 +141,7 @@ int main(int argc, char *argv[])
     // Do this early as we don't want to bother initializing if we are just calling IPC
     for (int i = 1; i < argc; i++)
     {
-        if (strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Pulse:", 7) == 0)
+        if (strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Bolt:", 7) == 0)
         {
             const char *strURI = argv[i];
             try {
@@ -178,12 +178,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("Pulse");
-    app.setOrganizationDomain("Pulse.org");
+    app.setOrganizationName("Bolt");
+    app.setOrganizationDomain("Bolt.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("Pulse-Qt-testnet");
+        app.setApplicationName("Bolt-Qt-testnet");
     else
-        app.setApplicationName("Pulse-Qt");
+        app.setApplicationName("Bolt-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -268,7 +268,7 @@ int main(int argc, char *argv[])
                 // Check for URI in argv
                 for (int i = 1; i < argc; i++)
                 {
-                    if (strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Pulse:", 7) == 0)
+                    if (strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Bolt:", 7) == 0)
                     {
                         const char *strURI = argv[i];
                         try {

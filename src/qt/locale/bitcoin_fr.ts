@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Pulse</source>
-        <translation>À propos de Pulse</translation>
+        <source>About Bolt</source>
+        <translation>À propos de Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Pulse Developers</source>
-        <translation>Copyright © 2014 Développeurs de Pulse</translation>
+        <source>Copyright © 2014 Bolt Developers</source>
+        <translation>Copyright © 2014 Développeurs de Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 Pulse Developers</source>
-        <translation>Copyright © 2011-2014 Développeurs de Pulse</translation>
+        <source>Copyright © 2011-2014 Bolt Developers</source>
+        <translation>Copyright © 2011-2014 Développeurs de Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -51,8 +51,8 @@ Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisat
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Pulse addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses Pulse pour recevoir des paiements.  Vous pouvez en communiquer une différente à chacun de vos expéditeurs afin de pouvoir identifier qui vous paie.</translation>
+        <source>These are your Bolt addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses Bolt pour recevoir des paiements.  Vous pouvez en communiquer une différente à chacun de vos expéditeurs afin de pouvoir identifier qui vous paie.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -269,8 +269,8 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Pulse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Pulses from being stolen by malware infecting your computer.</source>
-        <translation>Pulse va maintenant se fermer pour terminer le processus de chiffrement. Sachez que le chiffrement de votre portefeuille ne peut pas vous protéger totalement contre le vol de vos Pulses par des logiciels malveillants qui auraient infecté votre ordinateur.</translation>
+        <source>Bolt will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Bolts from being stolen by malware infecting your computer.</source>
+        <translation>Bolt va maintenant se fermer pour terminer le processus de chiffrement. Sachez que le chiffrement de votre portefeuille ne peut pas vous protéger totalement contre le vol de vos Bolts par des logiciels malveillants qui auraient infecté votre ordinateur.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -385,8 +385,8 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Pulse</source>
-        <translation>Afficher des informations sur Pulse</translation>
+        <source>Show information about Bolt</source>
+        <translation>Afficher des informations sur Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -500,38 +500,38 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Pulse Wallet</source>
-        <translation>Porte-monnaie Pulse</translation>
+        <source>Bolt Wallet</source>
+        <translation>Porte-monnaie Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Pulse address</source>
-        <translation>Envoyer des pièces à une adresse Pulse</translation>
+        <source>Send coins to a Bolt address</source>
+        <translation>Envoyer des pièces à une adresse Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Pulse</source>
-        <translation>&amp;À propos de Pulse</translation>
+        <source>&amp;About Bolt</source>
+        <translation>&amp;À propos de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Pulse</source>
-        <translation>Modifier la configuration des options pour Pulse</translation>
+        <source>Modify configuration options for Bolt</source>
+        <translation>Modifier la configuration des options pour Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Pulse</source>
-        <translation>Afficher/Masquer &amp;Pulse</translation>
+        <source>Show/Hide &amp;Bolt</source>
+        <translation>Afficher/Masquer &amp;Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Pulse window</source>
-        <translation>Afficher ou masquer la fenêtre Pulse</translation>
+        <source>Show or hide the Bolt window</source>
+        <translation>Afficher ou masquer la fenêtre Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Pulse client</source>
-        <translation>Client Pulse</translation>
+        <source>Bolt client</source>
+        <translation>Client Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -540,7 +540,7 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Pulse network</source>
+        <source>%n active connection(s) to Bolt network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -681,8 +681,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Pulse can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a eu lieu. Pulse ne peut plus continuer de manière sure et va se fermer.</translation>
+        <source>A fatal error occured. Bolt can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a eu lieu. Bolt ne peut plus continuer de manière sure et va se fermer.</translation>
     </message>
 </context>
 <context>
@@ -719,7 +719,7 @@ Adresse : %4
         <location filename="../forms/coincontroldialog.ui" line="310"/>
         <location filename="../forms/coincontroldialog.ui" line="348"/>
         <source>0.00 BTC</source>
-        <translation>0.00 PULSE</translation>
+        <translation>0.00 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -987,8 +987,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Pulse addresses in the transaction list</source>
-        <translation>Afficher ou non les adresses Pulse dans la liste des transactions</translation>
+        <source>Whether to show Bolt addresses in the transaction list</source>
+        <translation>Afficher ou non les adresses Bolt dans la liste des transactions</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1055,8 +1055,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pulse address.</source>
-        <translation>L&apos;adresse saisie &quot;%1&quot; n&apos;est pas une adresse Pulse valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bolt address.</source>
+        <translation>L&apos;adresse saisie &quot;%1&quot; n&apos;est pas une adresse Bolt valide.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1098,8 +1098,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Pulse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Pulse sur le routeur. Ceci ne fonctionne que si votre routeur supporte UPnP et l&apos;a activé.</translation>
+        <source>Automatically open the Bolt client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Bolt sur le routeur. Ceci ne fonctionne que si votre routeur supporte UPnP et l&apos;a activé.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1109,7 +1109,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Connexion au réseau Pulse à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
+        <translation>Connexion au réseau Bolt à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1133,8 +1133,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PULSE fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation>Frais obligatoires de traitement des transactions par le réseau par ko transféré. La plupart des transactions font 1 ko pour un coût de 0,01 PULSE. Note: la taille des transferts peut augmenter en fonction du nombre de transactions d&apos;entrée qui doivent être ajoutées pour couvrir le montant du paiement.</translation>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 Bolt fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <translation>Frais obligatoires de traitement des transactions par le réseau par ko transféré. La plupart des transactions font 1 ko pour un coût de 0,01 Bolt. Note: la taille des transferts peut augmenter en fonction du nombre de transactions d&apos;entrée qui doivent être ajoutées pour couvrir le montant du paiement.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
@@ -1153,13 +1153,13 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Pulse on window system startup</source>
-        <translation>&amp;Démarrer Pulse au lancement du système de fenêtrage</translation>
+        <source>&amp;Start Bolt on window system startup</source>
+        <translation>&amp;Démarrer Bolt au lancement du système de fenêtrage</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Pulse after the computer is turned on</source>
-        <translation>Démarrer automatiquement Pulse après la mise en marche de l&apos;ordinateur</translation>
+        <source>Automatically start Bolt after the computer is turned on</source>
+        <translation>Démarrer automatiquement Bolt après la mise en marche de l&apos;ordinateur</translation>
     </message>
 </context>
 <context>
@@ -1443,8 +1443,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>PULSE</source>
-        <translation>PULSE</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1486,8 +1486,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Pulse (Pulse) debug window</source>
-        <translation>Fenêtre de débogage de Pulse</translation>
+        <source>Bolt (Bolt) debug window</source>
+        <translation>Fenêtre de débogage de Bolt</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1578,8 +1578,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Pulse RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Bienvenue dans la console RPC de Pulse.&lt;br&gt;Utilisez les flèches haut et bas pour naviguer dans l&apos;historique, et &lt;b&gt;Ctrl-L&lt;/b&gt; pour nettoyer l&apos;écran.&lt;br&gt;Tapper &lt;b&gt;help&lt;/b&gt; pour avoir un aperçu des commandes disponibles.</translation>
+        <source>Welcome to the Bolt RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Bienvenue dans la console RPC de Bolt.&lt;br&gt;Utilisez les flèches haut et bas pour naviguer dans l&apos;historique, et &lt;b&gt;Ctrl-L&lt;/b&gt; pour nettoyer l&apos;écran.&lt;br&gt;Tapper &lt;b&gt;help&lt;/b&gt; pour avoir un aperçu des commandes disponibles.</translation>
     </message>
 </context>
 <context>
@@ -1643,7 +1643,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
         <location filename="../forms/sendcoinsdialog.ui" line="496"/>
         <location filename="../forms/sendcoinsdialog.ui" line="528"/>
         <source>0.00 BTC</source>
-        <translation>0.00 PULSE</translation>
+        <translation>0.00 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -1793,7 +1793,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Attention : Adresse Pulse invalide</translation>
+        <translation>Attention : Adresse Bolt invalide</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1812,8 +1812,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Pulse address</source>
-        <translation>Entrez une adresse Pulse</translation>
+        <source>Enter a Bolt address</source>
+        <translation>Entrez une adresse Bolt</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1901,8 +1901,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Pulse address</source>
-        <translation>Entrez une adresse Pulse</translation>
+        <source>Enter a Bolt address</source>
+        <translation>Entrez une adresse Bolt</translation>
     </message>
 </context>
 <context>
@@ -1966,8 +1966,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Pulse address</source>
-        <translation>Signez le message pour prouver que vous possédez cette adresse Pulse</translation>
+        <source>Sign the message to prove you own this Bolt address</source>
+        <translation>Signez le message pour prouver que vous possédez cette adresse Bolt</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -2002,8 +2002,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Pulse address</source>
-        <translation>Vérifiez le message pour vous assurer qu&apos;il a été signé par l&apos;adresse Pulse spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified Bolt address</source>
+        <translation>Vérifiez le message pour vous assurer qu&apos;il a été signé par l&apos;adresse Bolt spécifiée</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2028,8 +2028,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Pulse address</source>
-        <translation>Entrez une adresse Pulse</translation>
+        <source>Enter a Bolt address</source>
+        <translation>Entrez une adresse Bolt</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2587,18 +2587,18 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Pulse is probably already running.</source>
-        <translation>Impossible de se lier au port %d de cet ordinateur. Pulse est probablement déjà en cours de fonctionnement.</translation>
+        <source>Unable to bind to port %d on this computer.  Bolt is probably already running.</source>
+        <translation>Impossible de se lier au port %d de cet ordinateur. Bolt est probablement déjà en cours de fonctionnement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Pulse version</source>
-        <translation>Version de Pulse</translation>
+        <source>Bolt version</source>
+        <translation>Version de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or Pulsed</source>
-        <translation>Envoyer une commande à -server ou à Pulsed</translation>
+        <source>Send command to -server or Boltd</source>
+        <translation>Envoyer une commande à -server ou à Boltd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2617,13 +2617,13 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: Pulse.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : Pulse.conf)</translation>
+        <source>Specify configuration file (default: Bolt.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : Bolt.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: Pulsed.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : Pulsed.pid)</translation>
+        <source>Specify pid file (default: Boltd.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : Boltd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2878,23 +2878,23 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Pulse is probably already running.</source>
-        <translation>Impossible d&apos;obtenir un verrou pour le répertoire des données %s.  Pulse est probablement déjà en cours de fonctionnement.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Bolt is probably already running.</source>
+        <translation>Impossible d&apos;obtenir un verrou pour le répertoire des données %s.  Bolt est probablement déjà en cours de fonctionnement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Pulse</source>
-        <translation>Pulse</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pulse</source>
-        <translation>Erreur lors du chargement de wallet.dat : Le porte-monnaie nécessite une version plus récente de Pulse</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bolt</source>
+        <translation>Erreur lors du chargement de wallet.dat : Le porte-monnaie nécessite une version plus récente de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Pulse to complete</source>
-        <translation>Le porte-monnaie a besoin d&apos;être réécrit : redémarrez Pulse pour compléter le processus</translation>
+        <source>Wallet needed to be rewritten: restart Bolt to complete</source>
+        <translation>Le porte-monnaie a besoin d&apos;être réécrit : redémarrez Bolt pour compléter le processus</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2910,8 +2910,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Pulse will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont correctes.  Si votre horloge n&apos;est pas à l&apos;heure Pulse ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bolt will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont correctes.  Si votre horloge n&apos;est pas à l&apos;heure Bolt ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

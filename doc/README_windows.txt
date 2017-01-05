@@ -1,6 +1,6 @@
-Pulse (Pulse) 0.4.0 BETA
+Bolt (Bolt) 0.4.0 BETA
 
-Copyright (c) 2011-2014 Pulse (Pulse) Developers
+Copyright (c) 2011-2014 Bolt (Bolt) Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -10,7 +10,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Pulse is a free open source project derived from Bitcoin, with
+Bolt is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -18,35 +18,35 @@ help further advance the field of crypto-currency.
 
 Setup
 -----
-After completing windows setup then run Pulse-qt.
-Alternatively you can run windows command line (cmd) in Pulse program dir.
+After completing windows setup then run Bolt-qt.
+Alternatively you can run windows command line (cmd) in Bolt program dir.
   cd daemon
-  Pulsed
-You would need to create a configuration file Pulse.conf in the default
-wallet directory. Grant access to Pulsed/Pulse-qt in anti-virus and firewall
+  Boltd
+You would need to create a configuration file Bolt.conf in the default
+wallet directory. Grant access to Boltd/Bolt-qt in anti-virus and firewall
 applications if necessary.
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 6901 (TCP) to your computer so you can receive
-incoming connections.  Pulse works without incoming connections,
-but allowing incoming connections helps the Pulse network.
+incoming connections.  Bolt works without incoming connections,
+but allowing incoming connections helps the Bolt network.
 
 
 Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.3, first backup wallet in qt menu or by command line
-Pulsed backupwallet <destination_backup_file>
-Then shutdown Pulsed by
-Pulsed stop
+Boltd backupwallet <destination_backup_file>
+Then shutdown Boltd by
+Boltd stop
 Uninstall v0.3 client, download and install v0.4 client.
 If upgrade is performed after upgrade deadline, blockchain re-download is
 required.
 
 
 See the documentation/wiki at github:
-  http://github.com/Pulse/Pulse
+  http://github.com/Bolt/Bolt
 for help and more information.
 
 

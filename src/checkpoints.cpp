@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2013 The Pulse developers
+// Copyright (c) 2011-2013 The Bolt developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -63,7 +63,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // Pulse: synchronized checkpoint (centrally broadcasted)
+    // Bolt: synchronized checkpoint (centrally broadcasted)
     uint256 hashSyncCheckpoint = 0;
     uint256 hashPendingCheckpoint = 0;
     CSyncCheckpoint checkpointMessage;
@@ -71,7 +71,7 @@ namespace Checkpoints
     uint256 hashInvalidCheckpoint = 0;
     CCriticalSection cs_hashSyncCheckpoint;
 
-    // Pulse: get last synchronized checkpoint
+    // Bolt: get last synchronized checkpoint
     CBlockIndex* GetLastSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -82,7 +82,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // Pulse: only descendant of current sync-checkpoint is allowed
+    // Bolt: only descendant of current sync-checkpoint is allowed
     bool ValidateSyncCheckpoint(uint256 hashCheckpoint)
     {
         if (!mapBlockIndex.count(hashSyncCheckpoint))
@@ -241,7 +241,7 @@ namespace Checkpoints
         return false;
     }
 
-    // Pulse: reset synchronized checkpoint to last hardened checkpoint
+    // Bolt: reset synchronized checkpoint to last hardened checkpoint
     bool ResetSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -363,12 +363,12 @@ namespace Checkpoints
     }
 }
 
-// Pulse: sync-checkpoint master key
+// Bolt: sync-checkpoint master key
 const std::string CSyncCheckpoint::strMasterPubKey = "04c0c707c28533fd5c9f79d2d3a2d80dff259ad8f915241cd14608fb9bc07c74830efe8438f2b272a866b4af5e0c2cc2a9909972aefbd976937e39f46bb38c277c";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
-// Pulse: verify signature of sync-checkpoint message
+// Bolt: verify signature of sync-checkpoint message
 bool CSyncCheckpoint::CheckSignature()
 {
     CKey key;
@@ -383,7 +383,7 @@ bool CSyncCheckpoint::CheckSignature()
     return true;
 }
 
-// Pulse: process synchronized checkpoint
+// Bolt: process synchronized checkpoint
 bool CSyncCheckpoint::ProcessSyncCheckpoint(CNode* pfrom)
 {
     if (!CheckSignature())

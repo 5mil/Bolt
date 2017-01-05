@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Pulse</source>
-        <translation>关于Pulse</translation>
+        <source>About Bolt</source>
+        <translation>关于Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Pulse Developers</source>
-        <translation>版权归Pulse开发者所有 © 2014 Pulse Developers</translation>
+        <source>Copyright © 2014 Bolt Developers</source>
+        <translation>版权归Bolt开发者所有 © 2014 Bolt Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 Pulse Developers</source>
-        <translation>版权归Pulse开发者所有  © 2011-2014 Pulse Developers</translation>
+        <source>Copyright © 2011-2014 Bolt Developers</source>
+        <translation>版权归Bolt开发者所有  © 2011-2014 Bolt Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -33,7 +33,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished">版权归比特币开发者所有  © 2009-2013 Pulse Developers
+        <translation type="unfinished">版权归比特币开发者所有  © 2009-2013 Bolt Developers
 
 这是一个实验性软件。
 
@@ -51,7 +51,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Pulse addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Bolt addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -268,7 +268,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Pulse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Pulses from being stolen by malware infecting your computer.</source>
+        <source>Bolt will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Bolts from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -384,7 +384,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Pulse</source>
+        <source>Show information about Bolt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -499,38 +499,38 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Pulse Wallet</source>
-        <translation>Pulse钱包</translation>
+        <source>Bolt Wallet</source>
+        <translation>Bolt钱包</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Pulse address</source>
-        <translation>向一个Pulse地址发送币</translation>
+        <source>Send coins to a Bolt address</source>
+        <translation>向一个Bolt地址发送币</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Pulse</source>
-        <translation>关于Pulse(&amp;A)</translation>
+        <source>&amp;About Bolt</source>
+        <translation>关于Bolt(&amp;A)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Pulse</source>
+        <source>Modify configuration options for Bolt</source>
         <translation>设置选项</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Pulse</source>
-        <translation>显示/隐藏&amp;Pulse</translation>
+        <source>Show/Hide &amp;Bolt</source>
+        <translation>显示/隐藏&amp;Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Pulse window</source>
+        <source>Show or hide the Bolt window</source>
         <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Pulse client</source>
-        <translation>Pulse客户端</translation>
+        <source>Bolt client</source>
+        <translation>Bolt客户端</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -539,9 +539,9 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Pulse network</source>
+        <source>%n active connection(s) to Bolt network</source>
         <translation>
-            <numerusform>%n条到Pulse网络的活动连接</numerusform>
+            <numerusform>%n条到Bolt网络的活动连接</numerusform>
         </translation>
     </message>
     <message>
@@ -674,8 +674,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Pulse can no longer continue safely and will quit.</source>
-        <translation>发生致命错误。Pulse无法继续安全运行，将要退出。</translation>
+        <source>A fatal error occured. Bolt can no longer continue safely and will quit.</source>
+        <translation>发生致命错误。Bolt无法继续安全运行，将要退出。</translation>
     </message>
 </context>
 <context>
@@ -712,7 +712,7 @@ Address: %4
         <location filename="../forms/coincontroldialog.ui" line="310"/>
         <location filename="../forms/coincontroldialog.ui" line="348"/>
         <source>0.00 BTC</source>
-        <translation>0.00 PULSE</translation>
+        <translation>0.00 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -980,7 +980,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Pulse addresses in the transaction list</source>
+        <source>Whether to show Bolt addresses in the transaction list</source>
         <translation>是否需要在交易清单中显示币地址</translation>
     </message>
     <message>
@@ -1048,7 +1048,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pulse address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Bolt address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1091,8 +1091,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Pulse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开Pulse端口。只有当您的路由器支持并开启了 UPnP 选项时此功能才有效。</translation>
+        <source>Automatically open the Bolt client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动在路由器中打开Bolt端口。只有当您的路由器支持并开启了 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1126,7 +1126,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PULSE fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 Bolt fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1146,13 +1146,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Pulse on window system startup</source>
-        <translation>系统启动时运行Pulse(&amp;S)</translation>
+        <source>&amp;Start Bolt on window system startup</source>
+        <translation>系统启动时运行Bolt(&amp;S)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Pulse after the computer is turned on</source>
-        <translation>计算机启动后自动开启Pulse客户端</translation>
+        <source>Automatically start Bolt after the computer is turned on</source>
+        <translation>计算机启动后自动开启Bolt客户端</translation>
     </message>
 </context>
 <context>
@@ -1436,8 +1436,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>PULSE</source>
-        <translation>PULSE</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1479,8 +1479,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Pulse (Pulse) debug window</source>
-        <translation>Pulse (Pulse)调试窗口</translation>
+        <source>Bolt (Bolt) debug window</source>
+        <translation>Bolt (Bolt)调试窗口</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1571,8 +1571,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Pulse RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>欢迎来到Pulse RPC 控制台。&lt;br&gt;使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。&lt;br&gt;使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
+        <source>Welcome to the Bolt RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>欢迎来到Bolt RPC 控制台。&lt;br&gt;使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。&lt;br&gt;使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
 </context>
 <context>
@@ -1636,7 +1636,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/sendcoinsdialog.ui" line="496"/>
         <location filename="../forms/sendcoinsdialog.ui" line="528"/>
         <source>0.00 BTC</source>
-        <translation>0.00 PULSE</translation>
+        <translation>0.00 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -1805,7 +1805,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Pulse address</source>
+        <source>Enter a Bolt address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1894,8 +1894,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Pulse address</source>
-        <translation>输入Pulse地址</translation>
+        <source>Enter a Bolt address</source>
+        <translation>输入Bolt地址</translation>
     </message>
 </context>
 <context>
@@ -1959,7 +1959,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Pulse address</source>
+        <source>Sign the message to prove you own this Bolt address</source>
         <translation>签名消息，证明这个地址属于您</translation>
     </message>
     <message>
@@ -1995,8 +1995,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Pulse address</source>
-        <translation>验证消息，确保消息是由指定的Pulse地址签名过的</translation>
+        <source>Verify the message to ensure it was signed with the specified Bolt address</source>
+        <translation>验证消息，确保消息是由指定的Bolt地址签名过的</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2021,8 +2021,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Pulse address</source>
-        <translation>输入一个Pulse地址</translation>
+        <source>Enter a Bolt address</source>
+        <translation>输入一个Bolt地址</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2578,18 +2578,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Pulse is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  Bolt is probably already running.</source>
         <translation>无法绑定本机端口 %s Perunity可能已经在运行。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Pulse version</source>
-        <translation>Pulse版本</translation>
+        <source>Bolt version</source>
+        <translation>Bolt版本</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or Pulsed</source>
-        <translation>向 -server或 Pulsed发命令</translation>
+        <source>Send command to -server or Boltd</source>
+        <translation>向 -server或 Boltd发命令</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2608,13 +2608,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: Pulse.conf)</source>
-        <translation>指定配置文件 (默认为 Pulse.conf)</translation>
+        <source>Specify configuration file (default: Bolt.conf)</source>
+        <translation>指定配置文件 (默认为 Bolt.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: Pulsed.pid)</source>
-        <translation>指定 pid 文件 (默认为 Pulsed.pid)
+        <source>Specify pid file (default: Boltd.pid)</source>
+        <translation>指定 pid 文件 (默认为 Boltd.pid)
 </translation>
     </message>
     <message>
@@ -2883,23 +2883,23 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Pulse is probably already running.</source>
-        <translation>无法锁住数据目录%s。Pulse可能已经在运行中。</translation>
+        <source>Cannot obtain a lock on data directory %s.  Bolt is probably already running.</source>
+        <translation>无法锁住数据目录%s。Bolt可能已经在运行中。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Pulse</source>
-        <translation>Pulse</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pulse</source>
-        <translation>wallet.dat钱包文件加载错误：钱包需要更新版本的Pulse</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bolt</source>
+        <translation>wallet.dat钱包文件加载错误：钱包需要更新版本的Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Pulse to complete</source>
-        <translation>钱包文件需要被重写：请重新启动Pulse客户端</translation>
+        <source>Wallet needed to be rewritten: restart Bolt to complete</source>
+        <translation>钱包文件需要被重写：请重新启动Bolt客户端</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2915,8 +2915,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Pulse will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确。时间错误可能会导致Pulse客户端运行异常。</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bolt will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确。时间错误可能会导致Bolt客户端运行异常。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

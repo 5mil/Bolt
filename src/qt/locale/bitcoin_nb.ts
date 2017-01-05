@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Pulse</source>
-        <translation>Om Pulse</translation>
+        <source>About Bolt</source>
+        <translation>Om Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Pulse Developers</source>
-        <translation>Copyright © 2014 Pulse Utviklerne</translation>
+        <source>Copyright © 2014 Bolt Developers</source>
+        <translation>Copyright © 2014 Bolt Utviklerne</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 Pulse Developers</source>
-        <translation>Copyright © 2015 Pulse Utviklerne</translation>
+        <source>Copyright © 2011-2014 Bolt Developers</source>
+        <translation>Copyright © 2015 Bolt Utviklerne</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Pulse addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Pulse-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
+        <source>These are your Bolt addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Bolt-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -266,8 +266,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Pulse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Pulses from being stolen by malware infecting your computer.</source>
-        <translation>Pulse vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine peercoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
+        <source>Bolt will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Bolts from being stolen by malware infecting your computer.</source>
+        <translation>Bolt vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine peercoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Pulse</source>
-        <translation>Vis informasjon om Pulse</translation>
+        <source>Show information about Bolt</source>
+        <translation>Vis informasjon om Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Pulse Wallet</source>
-        <translation>Pulse Lommebok</translation>
+        <source>Bolt Wallet</source>
+        <translation>Bolt Lommebok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Pulse address</source>
-        <translation>Send mynter til en Pulse-adresse</translation>
+        <source>Send coins to a Bolt address</source>
+        <translation>Send mynter til en Bolt-adresse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Pulse</source>
-        <translation>&amp;Om Pulse</translation>
+        <source>&amp;About Bolt</source>
+        <translation>&amp;Om Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Pulse</source>
-        <translation>Endre oppsett for Pulse</translation>
+        <source>Modify configuration options for Bolt</source>
+        <translation>Endre oppsett for Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Pulse</source>
-        <translation>Vis/Skjul &amp;Pulse</translation>
+        <source>Show/Hide &amp;Bolt</source>
+        <translation>Vis/Skjul &amp;Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Pulse window</source>
-        <translation>Vis eller skjul Pulse-vinduet</translation>
+        <source>Show or hide the Bolt window</source>
+        <translation>Vis eller skjul Bolt-vinduet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Pulse client</source>
-        <translation>Pulse klient</translation>
+        <source>Bolt client</source>
+        <translation>Bolt klient</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Pulse network</source>
+        <source>%n active connection(s) to Bolt network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -678,8 +678,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Pulse can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Pulse må derfor avslutte.</translation>
+        <source>A fatal error occured. Bolt can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Bolt må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -716,7 +716,7 @@ Adresse: %4
         <location filename="../forms/coincontroldialog.ui" line="310"/>
         <location filename="../forms/coincontroldialog.ui" line="348"/>
         <source>0.00 BTC</source>
-        <translation>0.00 PULSE</translation>
+        <translation>0.00 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -980,8 +980,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Pulse addresses in the transaction list</source>
-        <translation>Om Pulse-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show Bolt addresses in the transaction list</source>
+        <translation>Om Bolt-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1048,8 +1048,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pulse address.</source>
-        <translation>Den oppgitte adressen &quot;%1&quot; er ikke en gyldig Pulse-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bolt address.</source>
+        <translation>Den oppgitte adressen &quot;%1&quot; er ikke en gyldig Bolt-adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1091,8 +1091,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Pulse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Pulse klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the Bolt client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk Bolt klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1102,7 +1102,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Koble til Pulse sitt nettverket gjennom en SOCKS4-mellomtjener (f.eks. for tilkobling gjennom Tor)</translation>
+        <translation>Koble til Bolt sitt nettverket gjennom en SOCKS4-mellomtjener (f.eks. for tilkobling gjennom Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1126,8 +1126,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PULSE fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation>Obligatorisk transaksjonsgebyr per kB overført. De fleste transaksjonene er 1 kB og krever et gebyr på 0,01 PULSE. Størrelsen på transaksjoner kan øke på grunn av mengden inntransaksjoner som kreves for å finansiere betalingen.</translation>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 Bolt fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <translation>Obligatorisk transaksjonsgebyr per kB overført. De fleste transaksjonene er 1 kB og krever et gebyr på 0,01 Bolt. Størrelsen på transaksjoner kan øke på grunn av mengden inntransaksjoner som kreves for å finansiere betalingen.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
@@ -1146,13 +1146,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Pulse on window system startup</source>
-        <translation>&amp;Start Pulse ved oppstart av datamaskinen</translation>
+        <source>&amp;Start Bolt on window system startup</source>
+        <translation>&amp;Start Bolt ved oppstart av datamaskinen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Pulse after the computer is turned on</source>
-        <translation>Start Pulse automatisk når datamaskinen blir slått på</translation>
+        <source>Automatically start Bolt after the computer is turned on</source>
+        <translation>Start Bolt automatisk når datamaskinen blir slått på</translation>
     </message>
 </context>
 <context>
@@ -1436,8 +1436,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>PULSE</source>
-        <translation>PULSE</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1479,8 +1479,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Pulse (Pulse) debug window</source>
-        <translation>Pulse feilsøkingsvindu</translation>
+        <source>Bolt (Bolt) debug window</source>
+        <translation>Bolt feilsøkingsvindu</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1571,8 +1571,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Pulse RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Velkommen til Pulse sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <source>Welcome to the Bolt RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Velkommen til Bolt sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
     </message>
 </context>
 <context>
@@ -1636,7 +1636,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
         <location filename="../forms/sendcoinsdialog.ui" line="496"/>
         <location filename="../forms/sendcoinsdialog.ui" line="528"/>
         <source>0.00 BTC</source>
-        <translation>0.00 PULSE</translation>
+        <translation>0.00 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -1706,7 +1706,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="714"/>
         <source>123.456 BTC</source>
-        <translation>123.456 PULSE</translation>
+        <translation>123.456 Bolt</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="745"/>
@@ -1786,7 +1786,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Advarsel: Ugyldig Pulse-adresse</translation>
+        <translation>Advarsel: Ugyldig Bolt-adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1805,8 +1805,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Pulse address</source>
-        <translation>Angi en Pulse-adresse</translation>
+        <source>Enter a Bolt address</source>
+        <translation>Angi en Bolt-adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1894,8 +1894,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Pulse address</source>
-        <translation>Angi en Pulse-adresse</translation>
+        <source>Enter a Bolt address</source>
+        <translation>Angi en Bolt-adresse</translation>
     </message>
 </context>
 <context>
@@ -1959,8 +1959,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Pulse address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Pulse-adressen</translation>
+        <source>Sign the message to prove you own this Bolt address</source>
+        <translation>Signer meldingen for å bevise at du eier denne Bolt-adressen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1995,8 +1995,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Pulse address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Pulse-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Bolt address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Bolt-adressen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2021,8 +2021,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Pulse address</source>
-        <translation>Angi en Pulse-adresse</translation>
+        <source>Enter a Bolt address</source>
+        <translation>Angi en Bolt-adresse</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2580,18 +2580,18 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Pulse is probably already running.</source>
-        <translation>Ute av stand til å binde til port %d på denne datamaskinen. Pulse kjører sannsynligvis allerede.</translation>
+        <source>Unable to bind to port %d on this computer.  Bolt is probably already running.</source>
+        <translation>Ute av stand til å binde til port %d på denne datamaskinen. Bolt kjører sannsynligvis allerede.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Pulse version</source>
-        <translation>Pulse versjon</translation>
+        <source>Bolt version</source>
+        <translation>Bolt versjon</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or Pulsed</source>
-        <translation>Send kommando til -server eller Pulsed</translation>
+        <source>Send command to -server or Boltd</source>
+        <translation>Send kommando til -server eller Boltd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2610,13 +2610,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: Pulse.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: Pulse.conf)</translation>
+        <source>Specify configuration file (default: Bolt.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: Bolt.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: Pulsed.pid)</source>
-        <translation>Angi pid-fil (standardverdi: Pulsed.pid)</translation>
+        <source>Specify pid file (default: Boltd.pid)</source>
+        <translation>Angi pid-fil (standardverdi: Boltd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2871,23 +2871,23 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Pulse is probably already running.</source>
-        <translation>Ute av stand til å låse datamappen %s. Pulse kjører sannsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Bolt is probably already running.</source>
+        <translation>Ute av stand til å låse datamappen %s. Bolt kjører sannsynligvis allerede.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Pulse</source>
-        <translation>Pulse</translation>
+        <source>Bolt</source>
+        <translation>Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pulse</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Pulse</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bolt</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Pulse to complete</source>
-        <translation>Lommeboken måtte skrives om: start Pulse på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart Bolt to complete</source>
+        <translation>Lommeboken måtte skrives om: start Bolt på nytt for å fullføre</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2903,8 +2903,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Pulse will not work properly.</source>
-        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Pulse fungere skikkelig.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bolt will not work properly.</source>
+        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Bolt fungere skikkelig.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

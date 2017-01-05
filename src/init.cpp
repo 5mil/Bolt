@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2013 The Pulse developers
+// Copyright (c) 2011-2013 The Bolt developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "db.h"
@@ -75,7 +75,7 @@ void Shutdown(void* parg)
         delete pwalletMain;
         CreateThread(ExitTimeout, NULL);
         Sleep(50);
-        printf("Pulse exiting\n\n");
+        printf("Bolt exiting\n\n");
         fExit = true;
 #ifndef QT_GUI
         // ensure non UI client get's exited here, but let Bitcoin-Qt reach return 0; in bitcoin.cpp
@@ -141,7 +141,7 @@ bool static Bind(const CService &addr) {
     std::string strError;
     if (!BindListenPort(addr, strError))
     {
-        ThreadSafeMessageBox(strError, _("Pulse"), wxOK | wxMODAL);
+        ThreadSafeMessageBox(strError, _("Bolt"), wxOK | wxMODAL);
         return false;
     }
     return true;
@@ -189,15 +189,15 @@ bool AppInit2(int argc, char* argv[])
     if (mapArgs.count("-?") || mapArgs.count("--help"))
     {
         string strUsage = string() +
-          _("Pulse version") + " " + FormatFullVersion() + "\n\n" +
+          _("Bolt version") + " " + FormatFullVersion() + "\n\n" +
           _("Usage:") + "\t\t\t\t\t\t\t\t\t\t\n" +
-            "  Pulsed [options]                   \t  " + "\n" +
-            "  Pulsed [options] <command> [params]\t  " + _("Send command to -server or Pulsed") + "\n" +
-            "  Pulsed [options] help              \t\t  " + _("List commands") + "\n" +
-            "  Pulsed [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
+            "  Boltd [options]                   \t  " + "\n" +
+            "  Boltd [options] <command> [params]\t  " + _("Send command to -server or Boltd") + "\n" +
+            "  Boltd [options] help              \t\t  " + _("List commands") + "\n" +
+            "  Boltd [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
           _("Options:") + "\n" +
-            "  -conf=<file>     \t\t  " + _("Specify configuration file (default: Pulse.conf)") + "\n" +
-            "  -pid=<file>      \t\t  " + _("Specify pid file (default: Pulsed.pid)") + "\n" +
+            "  -conf=<file>     \t\t  " + _("Specify configuration file (default: Bolt.conf)") + "\n" +
+            "  -pid=<file>      \t\t  " + _("Specify pid file (default: Boltd.pid)") + "\n" +
             "  -gen             \t\t  " + _("Generate coins") + "\n" +
             "  -gen=0           \t\t  " + _("Don't generate coins") + "\n" +
             "  -min             \t\t  " + _("Start minimized") + "\n" +
@@ -265,7 +265,7 @@ bool AppInit2(int argc, char* argv[])
             "  -checklevel=<n>  \t\t  " + _("How thorough the block verification is (0-6, default: 1)") + "\n";
 
         strUsage += string() +
-            _("\nSSL options: (see the Pulse Wiki for SSL setup instructions)") + "\n" +
+            _("\nSSL options: (see the Bolt Wiki for SSL setup instructions)") + "\n" +
             "  -rpcssl                                \t  " + _("Use OpenSSL (https) for JSON-RPC connections") + "\n" +
             "  -rpcsslcertificatechainfile=<file.cert>\t  " + _("Server certificate file (default: server.cert)") + "\n" +
             "  -rpcsslprivatekeyfile=<file.pem>       \t  " + _("Server private key (default: server.pem)") + "\n" +
@@ -315,7 +315,7 @@ bool AppInit2(int argc, char* argv[])
 
 #ifndef QT_GUI
     for (int i = 1; i < argc; i++)
-        if (!IsSwitchChar(argv[i][0]) && !(strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Pulse:", 7) == 0))
+        if (!IsSwitchChar(argv[i][0]) && !(strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Bolt:", 7) == 0))
             fCommandLine = true;
 
     if (fCommandLine)
@@ -350,7 +350,7 @@ bool AppInit2(int argc, char* argv[])
     if (!fDebug)
         ShrinkDebugFile();
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("Pulse version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
+    printf("Bolt version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
     printf("Default data directory %s\n", GetDefaultDataDir().string().c_str());
 
     if (GetBoolArg("-loadblockindextest"))
@@ -368,7 +368,7 @@ bool AppInit2(int argc, char* argv[])
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
     {
-        ThreadSafeMessageBox(strprintf(_("Cannot obtain a lock on data directory %s.  Pulse is probably already running."), GetDataDir().string().c_str()), _("Pulse"), wxOK|wxMODAL);
+        ThreadSafeMessageBox(strprintf(_("Cannot obtain a lock on data directory %s.  Bolt is probably already running."), GetDataDir().string().c_str()), _("Bolt"), wxOK|wxMODAL);
         return false;
     }
 
@@ -377,7 +377,7 @@ bool AppInit2(int argc, char* argv[])
     // Load data files
     //
     if (fDaemon)
-        fprintf(stdout, "Pulse server starting\n");
+        fprintf(stdout, "Bolt server starting\n");
     int64 nStart;
 
     InitMessage(_("Loading addresses..."));
@@ -414,12 +414,12 @@ bool AppInit2(int argc, char* argv[])
         if (nLoadWalletRet == DB_CORRUPT)
             strErrors << _("Error loading wallet.dat: Wallet corrupted") << "\n";
         else if (nLoadWalletRet == DB_TOO_NEW)
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Pulse") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Bolt") << "\n";
         else if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart Pulse to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart Bolt to complete") << "\n";
             printf("%s", strErrors.str().c_str());
-            ThreadSafeMessageBox(strErrors.str(), _("Pulse"), wxOK | wxICON_ERROR | wxMODAL);
+            ThreadSafeMessageBox(strErrors.str(), _("Bolt"), wxOK | wxICON_ERROR | wxMODAL);
             return false;
         }
         else
@@ -491,7 +491,7 @@ bool AppInit2(int argc, char* argv[])
 
     if (!strErrors.str().empty())
     {
-        ThreadSafeMessageBox(strErrors.str(), _("Pulse"), wxOK | wxICON_ERROR | wxMODAL);
+        ThreadSafeMessageBox(strErrors.str(), _("Bolt"), wxOK | wxICON_ERROR | wxMODAL);
         return false;
     }
 
@@ -547,7 +547,7 @@ bool AppInit2(int argc, char* argv[])
         addrProxy = CService(mapArgs["-proxy"], 9050);
         if (!addrProxy.IsValid())
         {
-            ThreadSafeMessageBox(_("Invalid -proxy address"), _("Pulse"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Invalid -proxy address"), _("Bolt"), wxOK | wxMODAL);
             return false;
         }
     }
@@ -557,7 +557,7 @@ bool AppInit2(int argc, char* argv[])
         BOOST_FOREACH(std::string snet, mapMultiArgs["-noproxy"]) {
             enum Network net = ParseNetwork(snet);
             if (net == NET_UNROUTABLE) {
-                ThreadSafeMessageBox(_("Unknown network specified in -noproxy"), _("Pulse"), wxOK | wxMODAL);
+                ThreadSafeMessageBox(_("Unknown network specified in -noproxy"), _("Bolt"), wxOK | wxMODAL);
                 return false;
             }
             SetNoProxy(net);
@@ -590,7 +590,7 @@ bool AppInit2(int argc, char* argv[])
         BOOST_FOREACH(std::string snet, mapMultiArgs["-onlynet"]) {
             enum Network net = ParseNetwork(snet);
             if (net == NET_UNROUTABLE) {
-                ThreadSafeMessageBox(_("Unknown network specified in -onlynet"), _("Pulse"), wxOK | wxMODAL);
+                ThreadSafeMessageBox(_("Unknown network specified in -onlynet"), _("Bolt"), wxOK | wxMODAL);
                 return false;
             }
             nets.insert(net);
@@ -648,27 +648,27 @@ bool AppInit2(int argc, char* argv[])
     {
         if (!ParseMoney(mapArgs["-paytxfee"], nTransactionFee) || nTransactionFee < MIN_TX_FEE)
         {
-            ThreadSafeMessageBox(_("Invalid amount for -paytxfee=<amount>"), _("Pulse"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Invalid amount for -paytxfee=<amount>"), _("Bolt"), wxOK | wxMODAL);
             return false;
         }
         if (nTransactionFee > 0.25 * COIN)
-            ThreadSafeMessageBox(_("Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."), _("Pulse"), wxOK | wxICON_EXCLAMATION | wxMODAL);
+            ThreadSafeMessageBox(_("Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."), _("Bolt"), wxOK | wxICON_EXCLAMATION | wxMODAL);
     }
 
-    if (mapArgs.count("-reservebalance")) // Pulse: reserve balance amount
+    if (mapArgs.count("-reservebalance")) // Bolt: reserve balance amount
     {
         int64 nReserveBalance = 0;
         if (!ParseMoney(mapArgs["-reservebalance"], nReserveBalance))
         {
-            ThreadSafeMessageBox(_("Invalid amount for -reservebalance=<amount>"), _("Pulse"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Invalid amount for -reservebalance=<amount>"), _("Bolt"), wxOK | wxMODAL);
             return false;
         }
     }
 
-    if (mapArgs.count("-checkpointkey")) // Pulse: checkpoint master priv key
+    if (mapArgs.count("-checkpointkey")) // Bolt: checkpoint master priv key
     {
         if (!Checkpoints::SetCheckpointPrivKey(GetArg("-checkpointkey", "")))
-            ThreadSafeMessageBox(_("Unable to sign checkpoint, wrong checkpointkey?\n"), _("Pulse"), wxOK | wxMODAL);
+            ThreadSafeMessageBox(_("Unable to sign checkpoint, wrong checkpointkey?\n"), _("Bolt"), wxOK | wxMODAL);
     }
 
     //
@@ -680,7 +680,7 @@ bool AppInit2(int argc, char* argv[])
     RandAddSeedPerfmon();
 
     if (!CreateThread(StartNode, NULL))
-        ThreadSafeMessageBox(_("Error: CreateThread(StartNode) failed"), _("Pulse"), wxOK | wxMODAL);
+        ThreadSafeMessageBox(_("Error: CreateThread(StartNode) failed"), _("Bolt"), wxOK | wxMODAL);
 
     if (fServer)
         CreateThread(ThreadRPCServer, NULL);

@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Pulse</source>
-        <translation>À propos de Pulse</translation>
+        <source>About Bolt</source>
+        <translation>À propos de Bolt</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Pulse&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Pulse&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Bolt&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bolt&lt;/b&gt; version</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="85"/>
-        <source>Copyright © 2011-2013 Pulse Developers
+        <source>Copyright © 2011-2013 Bolt Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Copyright © 2011-2013 Développeurs de Pulse
+        <translation>Copyright © 2011-2013 Développeurs de Bolt
 
 Ce logiciel est en phase expérimentale.
 
@@ -39,8 +39,8 @@ Ce produit inclut des logiciels développés par OpenSSL Project pour utilisatio
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Pulse addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses Pulse qui vous permettent de recevoir des paiements.  Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
+        <source>These are your Bolt addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses Bolt qui vous permettent de recevoir des paiements.  Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -226,9 +226,9 @@ Ce produit inclut des logiciels développés par OpenSSL Project pour utilisatio
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="102"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PulseS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BoltS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATTENTION : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS PulseS&lt;/b&gt; !
+        <translation>ATTENTION : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BoltS&lt;/b&gt; !
 Êtes-vous sûr de vouloir chiffrer votre porte-monnaie ?</translation>
     </message>
     <message>
@@ -239,8 +239,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Pulse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Pulses from being stolen by malware infecting your computer.</source>
-        <translation>Pulse va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Bolt will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Bolts from being stolen by malware infecting your computer.</source>
+        <translation>Bolt va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="208"/>
@@ -291,11 +291,11 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
 </context>
 <context>
-    <name>PulseGUI</name>
+    <name>BoltGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="69"/>
-        <source>Pulse Wallet</source>
-        <translation>Porte-monnaie Pulse</translation>
+        <source>Bolt Wallet</source>
+        <translation>Porte-monnaie Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="142"/>
@@ -355,8 +355,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="201"/>
-        <source>Send coins to a Pulse address</source>
-        <translation>Envoyer des pièces à une adresse Pulse</translation>
+        <source>Send coins to a Bolt address</source>
+        <translation>Envoyer des pièces à une adresse Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="206"/>
@@ -385,8 +385,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="231"/>
-        <source>Show information about Pulse</source>
-        <translation>Afficher des informations à propos de Pulse</translation>
+        <source>Show information about Bolt</source>
+        <translation>Afficher des informations à propos de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
@@ -405,18 +405,18 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Modify configuration options for Pulse</source>
-        <translation>Modifier les options de configuration pour Pulse</translation>
+        <source>Modify configuration options for Bolt</source>
+        <translation>Modifier les options de configuration pour Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
-        <source>Open &amp;Pulse</source>
-        <translation>Ouvrir &amp;Pulse</translation>
+        <source>Open &amp;Bolt</source>
+        <translation>Ouvrir &amp;Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show the Pulse window</source>
-        <translation>Afficher la fenêtre de Pulse</translation>
+        <source>Show the Bolt window</source>
+        <translation>Afficher la fenêtre de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -490,13 +490,13 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="407"/>
-        <source>Pulse-qt</source>
-        <translation>Pulse-qt</translation>
+        <source>Bolt-qt</source>
+        <translation>Bolt-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="449"/>
-        <source>%n active connection(s) to Pulse network</source>
-        <translation><numerusform>%n connexion active avec le réseau Pulse</numerusform><numerusform>%n connexions actives avec le réseau Pulse</numerusform></translation>
+        <source>%n active connection(s) to Bolt network</source>
+        <translation><numerusform>%n connexion active avec le réseau Bolt</numerusform><numerusform>%n connexions actives avec le réseau Bolt</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="475"/>
@@ -679,8 +679,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Pulse address.</source>
-        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse Pulse valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Bolt address.</source>
+        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse Bolt valide.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -697,13 +697,13 @@ Adresse : %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="170"/>
-        <source>&amp;Start Pulse on window system startup</source>
-        <translation>&amp;Démarrer Pulse avec le système de fenêtres</translation>
+        <source>&amp;Start Bolt on window system startup</source>
+        <translation>&amp;Démarrer Bolt avec le système de fenêtres</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>Automatically start Pulse after the computer is turned on</source>
-        <translation>Lancer automatiquement Pulse lorsque l&apos;ordinateur est allumé</translation>
+        <source>Automatically start Bolt after the computer is turned on</source>
+        <translation>Lancer automatiquement Bolt lorsque l&apos;ordinateur est allumé</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="175"/>
@@ -722,8 +722,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="181"/>
-        <source>Automatically open the Pulse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Pulse automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the Bolt client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Bolt automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="185"/>
@@ -743,7 +743,7 @@ Adresse : %4
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Connexion au réseau Pulse à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
+        <translation>Connexion au réseau Bolt à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1183,8 +1183,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Pulse address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Entez une adresse Pulse (par ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Bolt address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Entez une adresse Bolt (par ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1632,11 +1632,11 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>Pulse-core</name>
+    <name>Bolt-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="3"/>
-        <source>Pulse version</source>
-        <translation>Version de Pulse</translation>
+        <source>Bolt version</source>
+        <translation>Version de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="4"/>
@@ -1645,8 +1645,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="5"/>
-        <source>Send command to -server or Pulsed</source>
-        <translation>Envoyer une commande à -server ou à Pulsed</translation>
+        <source>Send command to -server or Boltd</source>
+        <translation>Envoyer une commande à -server ou à Boltd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="6"/>
@@ -1665,13 +1665,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>Specify configuration file (default: Pulse.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : Pulse.conf)</translation>
+        <source>Specify configuration file (default: Bolt.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : Bolt.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
-        <source>Specify pid file (default: Pulsed.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : Pulsed.pid)</translation>
+        <source>Specify pid file (default: Boltd.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : Boltd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1846,9 +1846,9 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>
-SSL options: (see the Pulse Wiki for SSL setup instructions)</source>
+SSL options: (see the Bolt Wiki for SSL setup instructions)</source>
         <translation>
-Options SSL : (cf. le wiki Pulse pour les réglages SSL)</translation>
+Options SSL : (cf. le wiki Bolt pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
@@ -1877,8 +1877,8 @@ Options SSL : (cf. le wiki Pulse pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Cannot obtain a lock on data directory %s.  Pulse is probably already running.</source>
-        <translation>Impossible d&apos;obtenir un verrou sur le répertoire de données %s.  Pulse fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Bolt is probably already running.</source>
+        <translation>Impossible d&apos;obtenir un verrou sur le répertoire de données %s.  Bolt fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
@@ -1902,13 +1902,13 @@ Options SSL : (cf. le wiki Pulse pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pulse</source>
-        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de Pulse</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bolt</source>
+        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de Bolt</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Wallet needed to be rewritten: restart Pulse to complete</source>
-        <translation>Le porte-monnaie nécessitait une réécriture. Veuillez redémarrer Pulse pour terminer l&apos;opération</translation>
+        <source>Wallet needed to be rewritten: restart Bolt to complete</source>
+        <translation>Le porte-monnaie nécessitait une réécriture. Veuillez redémarrer Bolt pour terminer l&apos;opération</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
@@ -1962,13 +1962,13 @@ Options SSL : (cf. le wiki Pulse pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Unable to bind to port %d on this computer.  Pulse is probably already running.</source>
-        <translation>Impossible de s&apos;attacher au port %d sur cet ordinateur.  Pulse fonctionne probablement déjà.</translation>
+        <source>Unable to bind to port %d on this computer.  Bolt is probably already running.</source>
+        <translation>Impossible de s&apos;attacher au port %d sur cet ordinateur.  Bolt fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Pulse will not work properly.</source>
-        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont corrects.  Si votre horloge n&apos;est pas à l&apos;heure, Pulse ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bolt will not work properly.</source>
+        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont corrects.  Si votre horloge n&apos;est pas à l&apos;heure, Bolt ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>

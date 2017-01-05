@@ -1,5 +1,5 @@
 ---
-name: "Pulse"
+name: "Bolt"
 suites:
 - "lucid"
 architectures:
@@ -12,12 +12,12 @@ packages:
 - "faketime"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/Pulse/Pulse.git"
-  "dir": "Pulse"
+- "url": "https://github.com/Bolt/Bolt.git"
+  "dir": "Bolt"
 files:
 - "qt-win32-4.7.4-gitian.zip"
 - "boost-win32-1.47.0-gitian.zip"
-- "Pulse-deps-0.0.2.zip"
+- "Bolt-deps-0.0.2.zip"
 script: |
   #
   mkdir $HOME/qt
@@ -39,11 +39,11 @@ script: |
   mv include/boost .
   cd ..
   #
-  unzip Pulse-deps-0.0.2.zip
+  unzip Bolt-deps-0.0.2.zip
   #
   find -type f | xargs touch --date="$REFERENCE_DATETIME"
   #
-  cd Pulse
+  cd Bolt
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README_windows.txt $OUTDIR/readme.txt
@@ -51,18 +51,18 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  $HOME/qt/src/bin/qmake -spec unsupported/win32-g++-cross MINIUPNPC_LIB_PATH=$HOME/build/miniupnpc MINIUPNPC_INCLUDE_PATH=$HOME/build/ BDB_LIB_PATH=$HOME/build/db-4.8.30.NC/build_unix BDB_INCLUDE_PATH=$HOME/build/db-4.8.30.NC/build_unix BOOST_LIB_PATH=$HOME/build/boost_1_47_0/stage/lib BOOST_INCLUDE_PATH=$HOME/build/boost_1_47_0 BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s OPENSSL_LIB_PATH=$HOME/build/openssl-1.0.1g OPENSSL_INCLUDE_PATH=$HOME/build/openssl-1.0.1g/include QRENCODE_LIB_PATH=$HOME/build/qrencode-3.2.0/.libs QRENCODE_INCLUDE_PATH=$HOME/build/qrencode-3.2.0 USE_QRCODE=1 INCLUDEPATH=$HOME/build DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=Pulse QMAKE_LFLAGS=-frandom-seed=stronghands USE_BUILD_INFO=1
+  $HOME/qt/src/bin/qmake -spec unsupported/win32-g++-cross MINIUPNPC_LIB_PATH=$HOME/build/miniupnpc MINIUPNPC_INCLUDE_PATH=$HOME/build/ BDB_LIB_PATH=$HOME/build/db-4.8.30.NC/build_unix BDB_INCLUDE_PATH=$HOME/build/db-4.8.30.NC/build_unix BOOST_LIB_PATH=$HOME/build/boost_1_47_0/stage/lib BOOST_INCLUDE_PATH=$HOME/build/boost_1_47_0 BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s OPENSSL_LIB_PATH=$HOME/build/openssl-1.0.1g OPENSSL_INCLUDE_PATH=$HOME/build/openssl-1.0.1g/include QRENCODE_LIB_PATH=$HOME/build/qrencode-3.2.0/.libs QRENCODE_INCLUDE_PATH=$HOME/build/qrencode-3.2.0 USE_QRCODE=1 INCLUDEPATH=$HOME/build DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=Bolt QMAKE_LFLAGS=-frandom-seed=stronghands USE_BUILD_INFO=1
   make $MAKEOPTS
-  cp release/Pulse-qt.exe $OUTDIR/
+  cp release/Bolt-qt.exe $OUTDIR/
   #
   cd src
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build Pulsed.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=Pulse"
-  i586-mingw32msvc-strip Pulsed.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build Boltd.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=Bolt"
+  i586-mingw32msvc-strip Boltd.exe
   mkdir $OUTDIR/daemon
-  cp Pulsed.exe $OUTDIR/daemon
+  cp Boltd.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis
@@ -71,4 +71,4 @@ script: |
   cp ../../release/* ../release/
   cp ../../src/*.exe .
   makensis ../share/setup.nsi
-  cp ../share/Pulse-*-win32-setup.exe $OUTDIR/
+  cp ../share/Bolt-*-win32-setup.exe $OUTDIR/

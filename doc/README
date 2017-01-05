@@ -1,6 +1,6 @@
-Pulse (Pulse) 0.4.0 BETA
+Bolt (Bolt) 0.4.0 BETA
 
-Copyright (c) 2011-2014 Pulse (Pulse) Developers
+Copyright (c) 2011-2014 Bolt (Bolt) Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -10,7 +10,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Pulse is a free open source project derived from Bitcoin, with
+Bolt is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -19,33 +19,33 @@ help further advance the field of crypto-currency.
 Setup
 -----
 Unpack the files into a directory and run:
- bin/32/Pulse-qt (GUI, 32-bit)
- bin/32/Pulsed (headless, 32-bit)
- bin/64/Pulse-qt (GUI, 64-bit)
- bin/64/Pulsed (headless, 64-bit)
+ bin/32/Bolt-qt (GUI, 32-bit)
+ bin/32/Boltd (headless, 32-bit)
+ bin/64/Bolt-qt (GUI, 64-bit)
+ bin/64/Boltd (headless, 64-bit)
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 6901 (TCP) to your computer so you can receive
-incoming connections.  Pulse works without incoming connections,
-but allowing incoming connections helps the Pulse network.
+incoming connections.  Bolt works without incoming connections,
+but allowing incoming connections helps the Bolt network.
 
 
 Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.3, first backup wallet
-Pulsed backupwallet <destination_backup_file>
-Then shutdown Pulsed by
-Pulsed stop
+Boltd backupwallet <destination_backup_file>
+Then shutdown Boltd by
+Boltd stop
 Uninstall v0.3 client, download and install v0.4 client.
-Start up the new Pulsed (0.4.0).
+Start up the new Boltd (0.4.0).
 If upgrade is performed after upgrade deadline then blockchain re-download
 is required.
 
 
 See the documentation/wiki at github:
-  http://github.com/Pulse/Pulse
+  http://github.com/Bolt/Bolt
 for help and more information.
 
 
