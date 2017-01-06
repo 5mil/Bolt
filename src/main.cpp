@@ -968,7 +968,7 @@ int64 GetProofOfWorkReward(unsigned int nBits)
 // Bolt: miner's coin stake is rewarded based on coin age spent (coin-days)
 int64 GetProofOfStakeReward(int64 nCoinAge)
 {
-    static int64 nRewardCoinYear = 183 * CENT;  // creation amount per coin-year 0.5% daily
+    static int64 nRewardCoinYear = 110 * CENT;  // creation amount per coin-year is 110%
     int64 nSubsidy = nCoinAge * 33 / (365 * 33 + 8) * nRewardCoinYear;
 
     strMotivational = "Revostake!";
@@ -977,7 +977,7 @@ int64 GetProofOfStakeReward(int64 nCoinAge)
     return nSubsidy;
 }
 
-static const int64 nTargetTimespan = 1 * 24 * 60 * 60;  // one week
+static const int64 nTargetTimespan = 1 * 6 * 60 * 60;  // one week
 static const int64 nTargetSpacingWorkMax = 12 * 20 * STAKE_TARGET_SPACING; // 2-hour
 
 //
