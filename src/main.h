@@ -35,16 +35,16 @@ static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const int64 MIN_TX_FEE = CENT;
 static const int64 MIN_RELAY_TX_FEE = CENT;
-static const int64 MAX_MONEY = 2000000000 * COIN;
-static const int64 MAX_MINT_PROOF_OF_WORK = 9999 * COIN;
+static const int64 MAX_MONEY = 200000000000 * COIN;
+static const int64 MAX_MINT_PROOF_OF_WORK = 20000 * COIN;
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int COINBASE_MATURITY_PPC = 100;
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
 static const int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 static const int STAKE_TARGET_SPACING = 2.5 * 60; // 2.5-minute block spacing
-static const int STAKE_MIN_AGE = 60 * 60 * 24 * 2; // minimum age for coin age 2 days
-static const int STAKE_MAX_AGE = 60 * 60 * 24 * 365 * 65; // stake age of full weight 65 years
+static const int STAKE_MIN_AGE = 60 * 60 * 6 * 1; // minimum age for coin age 2 days
+static const int STAKE_MAX_AGE = 60 * 60 * 24 * 365 * 6; // stake age of full weight 6 years
 
 #ifdef USE_UPNP
 static const int fHaveUPnP = true;
