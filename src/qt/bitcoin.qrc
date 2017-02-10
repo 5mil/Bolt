@@ -21,7 +21,7 @@
         <file alias="editpaste">res/icons/editpaste.png</file>
         <file alias="editcopy">res/icons/editcopy.png</file>
         <file alias="add">res/icons/add.png</file>
-        <file alias="Bolt_testnet">res/icons/Bolt_testnet.png</file>
+        <file alias="Paris_testnet">res/icons/Paris_testnet.png</file>
         <file alias="toolbar_testnet">res/icons/toolbar_testnet.png</file>
         <file alias="edit">res/icons/edit.png</file>
         <file alias="history">res/icons/history.png</file>
@@ -38,12 +38,12 @@
         <file alias="key">res/icons/key.png</file>
         <file alias="filesave">res/icons/filesave.png</file>
         <file>res/icons/horizontal_trans-no-shadow.png</file>
-        <file alias="Bolt_icon">res/icons/Bolt.png</file>
-        <file alias="Bolt_tooltip">res/icons/Bolt.png</file>
+        <file alias="Paris_icon">res/icons/Paris.png</file>
+        <file alias="Paris_tooltip">res/icons/Paris.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="splash">res/images/Bolt_splash.png</file>
+        <file alias="splash">res/images/Paris_splash.png</file>
         <file alias="qrcode">res/images/qrcode.png</file>
     </qresource>
     <qresource prefix="/movies">
