@@ -941,14 +941,14 @@ int64 GetProofOfWorkReward(unsigned int nBits)
     CBigNum bnTargetLimit = bnProofOfWorkLimit;
     bnTargetLimit.SetCompact(bnTargetLimit.GetCompact());
 
-    // Paris: subsidy is cut in half every 16x multiply of difficulty
+    // Paris: subsidy is divided by 20 every 16x multiply of difficulty
     // A reasonably continuous curve is used to avoid shock to market
     // (nSubsidyLimit / nSubsidy) ** 4 == bnProofOfWorkLimit / bnTarget
     CBigNum bnLowerBound = CENT;
     CBigNum bnUpperBound = bnSubsidyLimit;
     while (bnLowerBound + CENT <= bnUpperBound)
     {
-        CBigNum bnMidValue = (bnLowerBound + bnUpperBound) / 2;
+        CBigNum bnMidValue = (bnLowerBound + bnUpperBound) / 20;
         if (fDebug && GetBoolArg("-printcreation"))
             printf("GetProofOfWorkReward() : lower=%"PRI64d" upper=%"PRI64d" mid=%"PRI64d"\n", bnLowerBound.getuint64(), bnUpperBound.getuint64(), bnMidValue.getuint64());
         if (bnMidValue * bnMidValue * bnMidValue * bnMidValue * bnTargetLimit > bnSubsidyLimit * bnSubsidyLimit * bnSubsidyLimit * bnSubsidyLimit * bnTarget)
@@ -991,8 +991,8 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     bnResult *= 2;
     while (nTime > 0 && bnResult < bnProofOfWorkLimit)
     {
-        // Maximum 200% adjustment per day...
-        bnResult *= 2;
+        // Maximum 1000% adjustment per day...
+        bnResult *= 10;
         nTime -= 24 * 60 * 60;
     }
     if (bnResult > bnProofOfWorkLimit)
