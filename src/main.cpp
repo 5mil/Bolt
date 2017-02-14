@@ -941,14 +941,14 @@ int64 GetProofOfWorkReward(unsigned int nBits)
     CBigNum bnTargetLimit = bnProofOfWorkLimit;
     bnTargetLimit.SetCompact(bnTargetLimit.GetCompact());
 
-    // Paris: subsidy is divided by 20 every 16x multiply of difficulty
+    // Paris: subsidy is divided by 2 every 16x multiply of difficulty
     // A reasonably continuous curve is used to avoid shock to market
     // (nSubsidyLimit / nSubsidy) ** 4 == bnProofOfWorkLimit / bnTarget
     CBigNum bnLowerBound = CENT;
     CBigNum bnUpperBound = bnSubsidyLimit;
     while (bnLowerBound + CENT <= bnUpperBound)
     {
-        CBigNum bnMidValue = (bnLowerBound + bnUpperBound) / 20;
+        CBigNum bnMidValue = (bnLowerBound + bnUpperBound) / 2;
         if (fDebug && GetBoolArg("-printcreation"))
             printf("GetProofOfWorkReward() : lower=%"PRI64d" upper=%"PRI64d" mid=%"PRI64d"\n", bnLowerBound.getuint64(), bnUpperBound.getuint64(), bnMidValue.getuint64());
         if (bnMidValue * bnMidValue * bnMidValue * bnMidValue * bnTargetLimit > bnSubsidyLimit * bnSubsidyLimit * bnSubsidyLimit * bnSubsidyLimit * bnTarget)
@@ -971,14 +971,14 @@ int64 GetProofOfStakeReward(int64 nCoinAge)
     static int64 nRewardCoinYear = 110 * CENT;  // creation amount per coin-year is 110%
     int64 nSubsidy = nCoinAge * 33 / (365 * 33 + 8) * nRewardCoinYear;
 
-    strMotivational = "Revostake!";
+    strMotivational = "Love!";
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfStakeReward(): create=%s nCoinAge=%"PRI64d"\n", FormatMoney(nSubsidy).c_str(), nCoinAge);
     return nSubsidy;
 }
 
-static const int64 nTargetTimespan = 1 * 6 * 60 * 60;  // one week
-static const int64 nTargetSpacingWorkMax = 12 * 20 * STAKE_TARGET_SPACING; // 2-hour
+static const int64 nTargetTimespan = 1 * 6 * 60 * 60; 
+static const int64 nTargetSpacingWorkMax = 12 * 20 * STAKE_TARGET_SPACING;
 
 //
 // minimum amount of work that could possibly be required nTime after
@@ -992,7 +992,7 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     while (nTime > 0 && bnResult < bnProofOfWorkLimit)
     {
         // Maximum 1000% adjustment per day...
-        bnResult *= 10;
+        bnResult *= 2;
         nTime -= 24 * 60 * 60;
     }
     if (bnResult > bnProofOfWorkLimit)
